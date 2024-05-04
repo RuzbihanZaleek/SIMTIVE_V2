@@ -8,7 +8,9 @@ function App() {
       <Header />
       <div className="flex">
         <Sidebar />
-        <Body />
+        <div className="w-full">
+          <Body />
+        </div>
       </div>
     </>
   );
