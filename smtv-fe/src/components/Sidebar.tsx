@@ -10,7 +10,7 @@ const Sidebar: React.FC = () => {
   ];
 
   return (
-    <nav className="bg-white shadow-lg h-screen fixed left-0 min-w-[240px] py-6 px-4 font-[sans-serif] overflow-auto">
+    <nav className="bg-white shadow-lg h-screen left-0 min-w-[240px] py-6 px-4 font-[sans-serif] overflow-auto">
       <div className="flex items-center gap-3 px-4 py-2.5 border-b border-black cursor-pointer">
         <i className="fa fa-arrow-left fa-lg" />
         <p className="text-black text-xl">Back</p>
